@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: #a479c97f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(46, 16, 73);
+}
+/*
+SELETOR PERSONALIZADO
+*/
+h1#principal{
+    text-align: center;
+    color: #210B2C;
+    background-color: rgba(240, 240, 9, 0.445);
+}
+h2{
+    color: #A379C9;
+}
+
+h2.p26{
+    color: #182825;
+}
+
+h2.p37{
+    color: #F4E04D;
+}
+
+h2.p48{
+    color: #F4442E;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+    }
+    a{
+        color: orangered;
+        text-decoration: none;
+        font-weight: bold;
+    }
+   
+    /*
+    pseudo classe
+    */
+    a:visited{
+        color: rgb(233, 47, 0);
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+        
+    }
+    a:active{
+        color: rgb(2, 87, 2);
+    }
+    /*
+    Pseudo Elementos
+    */
+    a::after{
+        content: ' [link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: black;
+    }
+    .EP::after{
+        background-color: rgb(54, 54, 54);
+        color: white;
+
+    }
+
+</style>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/dashboard" target="_blank">Git</a></li>
+        <li><a href="https://www.linkedin.com/in/emili-isabela-077b441a2/" target="_blank">Linkedin</a></li>
+        <li><a href="https://app.orangejuice.com.br/perfil" target="_blank">Orange</a></li>
+        <li><a href="https://gartic.com.br/" target="_blank" class="EP">Gartic</a></li>
+
+    </ul>
+    
+</body>
+</html>

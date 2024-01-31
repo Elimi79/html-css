@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: gray;
+        }
+        header{
+            width: 600px;
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;  
+        }
+
+        h1 {
+    box-shadow: 4px 5px 13px 4px #000000c7;
+}
+
+        nav{
+            background-color: rgb(87, 87, 87);
+             padding: 3px;
+             box-shadow: inset -1px -1px 20px 8px #00000085;
+}
+        
+
+        nav> a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav> a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 20px 0px; 
+        }
+
+        article{
+            background-color: lightgrey;
+        }
+
+        article> aside{
+            background-color: rgb(68, 68, 68);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            margin-right: 30px;
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Meu site</h1>
+         <nav>
+            <a href="a">Linlk
+            </a>
+            <a href="a">Linlk
+            </a>
+            <a href="a">Linlk
+            </a>
+         </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Tecnologia Psicologia 
+            Sáude
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, cum voluptatibus excepturi corporis sint animi accusamus ad fugit, ipsam blanditiis dolores fuga molestias. Dicta ipsum ipsa animi blanditiis sint consectetur!</p>
+                <aside>
+                    <p>Artigo escrito por Emili</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        Feito Por mim 
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
