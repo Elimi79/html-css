@@ -22,6 +22,14 @@
       {
         "document-title": "off"
       }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
     ]
   }
 }
